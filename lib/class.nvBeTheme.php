@@ -1,7 +1,7 @@
 <?php class nvBeTheme
 {
-
-
+    public $addon;
+    
     public function __construct()
     {
         $this->addon = rex_addon::get('nv_betheme');
